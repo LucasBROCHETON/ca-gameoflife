@@ -1,67 +1,33 @@
-ipse
+HELP.md
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### STS ###
+.apt_generated
 .classpath
+.factorypath
 .project
 .settings
+.springBeans
+.sts4-cache
 
-# /
-/.cvsignore
-/.tomcatplugin
-/work
-/.gwt-cache
-/.externalToolBuilders
-/extras
-
-uitest/src/main/themes/VAADIN/themes/**/styles.css
-test/servlet-containers/karaf/vaadin-karaf-bundle1/src/main/resources/VAADIN/themes/karaftesttheme/styles.css
-
-# Persisted scss cache files
-uitest/src/main/themes/VAADIN/themes/**/styles.scss.cache
-
-# /build/
-/build/result
-/build/gwt
-/build/checkout
-/build/classes
-/build/test-output
-/build/integration-test-output
-/build/buildhelpers/com/vaadin/buildhelpers/*.class
-
-# /tests/
-/tests/junit*.properties
-
-# /bin/
-/bin
-
-# Mac
-*.DS_Store
-
-# Python
-scripts/*.pyc
-
-# build result folders
-*/result
-result
-target/
-all/target/
-push/target/
-shared/target/
-server/target/
-client/target/
-client-compiler/target/
-buildhelpers/target/
-client-compiled/target/
-liferay/target/
-themes/target/
-uitest/target/
-widgets/target/
-
-.sass-cache
-phantomjsdriver.log
-
-*.iml
+### IntelliJ IDEA ###
 .idea
+*.iws
+*.iml
+*.ipr
 
-*/.checkstyle
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
 
-# TB default error screenshot folder
-error-screenshots/
+### VS Code ###
+.vscode/
